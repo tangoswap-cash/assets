@@ -1,18 +1,9 @@
-import { BinanceAction } from "../blockchain/binance";
-import { SmartchainAction } from "../blockchain/smartchain";
-import { EthereumAction } from "../blockchain/ethereum";
-import { CosmosAction } from "../blockchain/cosmos";
 import { AssetInfos } from "../generic/asset-infos";
 import { EthForks } from "../generic/eth-forks";
 import { FoldersFiles } from "../generic/folders-and-files";
 import { JsonAction } from "../generic/json-format";
-import { KavaAction } from "../blockchain/kava";
 import { LogoSize } from "../generic/logo-size";
-import { TerraAction } from "../blockchain/terra";
-import { TezosAction } from "../blockchain/tezos";
-import { TronAction } from "../blockchain/tron";
 import { Validators } from "../generic/validators";
-import { WavesAction } from "../blockchain/waves";
 import { Allowlists } from "../generic/allowlists";
 import { ActionInterface, CheckStepInterface } from "../generic/interface";
 import * as chalk from 'chalk';
@@ -27,15 +18,6 @@ const actionList: ActionInterface[] = [
     new Validators(),
     new JsonAction(),
     // chains:
-    new BinanceAction(),
-    new SmartchainAction(),
-    new EthereumAction(),
-    new CosmosAction(),
-    new KavaAction(),
-    new TerraAction(),
-    new TezosAction(),
-    new TronAction(),
-    new WavesAction()
 ];
 
 const maxErrosFromOneCheck = 5;
