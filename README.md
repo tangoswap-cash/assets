@@ -11,7 +11,7 @@
 
 - [ ] Upload your logo with file named `logo.png` to previously created folder with smartcontract address, and if you done all correctly your path should look like this. `blockchains/smartbch/assets/0x1234567461d3f8Db7496581774Bd869C83D51c93/logo.png`
 
-- [ ] Run `npm run check` and make sure tests pass
+- [ ] Run `yarn run check` and make sure tests pass (nvm use && npm i -g yarn && yarn && yarn run check)
 
 - [ ] Create a pull request to the main repo
 
@@ -22,11 +22,11 @@
 
 There are several scripts available for maintainers:
 
-- `npm run check` -- Execute validation checks; also used in continuous integration.
-- `npm run check-sanity` -- Strict subset of checks
-- `npm run fix` -- Perform automatic fixes where possible
-- `npm run fix-sanity` -- Stricter subset
-- `npm run updateAuto` -- Run automatic updates from external sources, executed regularly (GitHub action)
-- `npm run update` -- Run manual updates from external sources, for manual use.
-- `npm test` -- Run script unit tests
-- `npm lint` -- Run Lint static code check
+- `yarn run check` -- Execute validation checks; also used in continuous integration.
+- `yarn run check-sanity` -- Strict subset of checks
+- `yarn run fix` -- Perform automatic fixes where possible
+- `yarn run fix-sanity` -- Stricter subset
+- `yarn run updateAuto` -- Run automatic updates from external sources, executed regularly (GitHub action)
+- `yarn run update` -- Run manual updates from external sources, for manual use.
+- `yarn test` -- Run script unit tests
+- `yarn lint` -- Run Lint static code check
